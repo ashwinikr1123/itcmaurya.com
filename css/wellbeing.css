@@ -1,0 +1,48 @@
+.wellbeing-card-area {
+  padding: 20px 60px;
+}
+
+.wellbeing-card-area h2 {
+  color: #444444b1;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.wellbeing-whole-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.wellbeing-card {
+  margin: 0 30px;
+  border: 1px solid #5555550e;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 33%;
+  height: 65%;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #eeeeee76;
+  border-radius: 10px;
+}
+.wellbeing-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 25px;
+}
+.wellbeing-card h2 {
+  font-size: 35px;
+}
+.wellbeing-card p {
+  font-weight: 200;
+  padding: 0 30px;
+  line-height: 1.5em;
+  color: #222;
+}
