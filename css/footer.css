@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Open+Sans:wght@300;400&display=swap');
+.whole-box {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 370px;
+  background: #e9faf565;
+  margin-top: 10px;
+}
+.whole-box .column-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+.column-box .box {
+  width: 25%;
+  height: 100%;
+  margin: 0 20px;
+  padding: 0 20px;
+  /* text-align: center; */
+}
+.column-box .box h3 {
+  color: #444;
+  font-size: 30px;
+  font-weight: normal;
+}
+.column-box ul {
+  list-style: none;
+  /* margin: 40px 0; */
+}
+.column-box ul li {
+  margin-top: 8px;
+}
+.column-box .box a {
+  color: #222;
+  font-weight: 400;
+}
+.column-box .box-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column-box .box-4 .icons {
+  margin: 10px 0 0 10px;
+  /* padding-right: 20px; */
+  font-size: 25px;
+}
+.column-box .box-4 .fa-brands {
+  padding-right: 20px;
+}
+.txt {
+  font-size: 14px;
+}
+.row-box {
+  background: black;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.row-box p {
+  color: aliceblue;
+  display: inline;
+  margin: 30px;
+}
